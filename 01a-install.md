@@ -48,14 +48,13 @@ cross-platform.
 
 Did you install Python 2 or 3? Why?  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I already had 3 installed, this was what was recommended by Dataquest when I started their program a few months back. It seems like 3 has more features with it and the support issues brought up in Learning Python the Hard Way aren't too relevant anymore.
 
 ###Q2. Which Python Version Installed   
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
-
+>> python --version
  
 
 
