@@ -21,16 +21,16 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 > > 
 
-Show current working directory path - pwd
-Creating a directory - mkdir
-Deleting a directory - rmdir
-Creating a file using 'touch' command - touch file
-Deleting a file - rm
-Renaming a file - mv file1 file2
-Listing hidden files - ls -a
-Copying a file from one directory to another - cp
-Change Directory - cd
-List Directory - ls
+Show current working directory path - pwd  
+Creating a directory - mkdir  
+Deleting a directory - rmdir  
+Creating a file using 'touch' command - touch file  
+Deleting a file - rm  
+Renaming a file - mv file1 file2  
+Listing hidden files - ls -a  
+Copying a file from one directory to another - cp  
+Change Directory - cd  
+List Directory - ls  
 
 ---
 
@@ -76,7 +76,9 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > Xargs can be used to take the output of a command and pass it as the argument of another command.
+> > 
+
+Xargs can be used to take the output of a command and pass it as the argument of another command.
 
 An example:
 
