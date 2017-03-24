@@ -47,13 +47,13 @@ What do the following commands do:
 
 > > 
 
-`ls` - list directory
-`ls -a` - list all files 
-`ls -l` - list files with long format
-`ls -lh` - list files with sizes
-`ls -lah` - list all files (including hidden files?) with sizes in long format
-`ls -t` - list files by modification times
-`ls -Glp` - list files in long format without file sizes
+`ls` - list directory  
+`ls -a` - list all files  
+`ls -l` - list files with long format  
+`ls -lh` - list files with sizes  
+`ls -lah` - list all files (including hidden files?) with sizes in long format  
+`ls -t` - list files by modification times  
+`ls -Glp` - list files in long format without file sizes  
 
 
 ---
@@ -64,11 +64,11 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 > > 
 
-'ls -R' - list all sub-directories
-'ls -1' - lists all entries as a line
-'ls -x' - lists all files as rows
-'ls -d' - lists all directories only
-'ls -m' - list all files as comma separated values
+'ls -R' - list all sub-directories  
+'ls -1' - lists all entries as a line  
+'ls -x' - lists all files as rows  
+'ls -d' - lists all directories only  
+'ls -m' - list all files as comma separated values  
 
 ---
 
