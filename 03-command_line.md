@@ -19,7 +19,18 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+
+Show current working directory path - pwd
+Creating a directory - mkdir
+Deleting a directory - rmdir
+Creating a file using 'touch' command - touch file
+Deleting a file - rm
+Renaming a file - mv file1 file2
+Listing hidden files - ls -a
+Copying a file from one directory to another - cp
+Change Directory - cd
+List Directory - ls
 
 ---
 
@@ -34,7 +45,16 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+
+`ls` - list directory
+`ls -a` - list all files 
+`ls -l` - list files with long format
+`ls -lh` - list files with sizes
+`ls -lah` - list all files (including hidden files?) with sizes in long format
+`ls -t` - list files by modification times
+`ls -Glp` - list files in long format without file sizes
+
 
 ---
 
@@ -42,7 +62,13 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+
+'ls -R' - list all sub-directories
+'ls -1' - lists all entries as a line
+'ls -x' - lists all files as rows
+'ls -d' - lists all directories only
+'ls -m' - list all files as comma separated values
 
 ---
 
@@ -50,7 +76,13 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > Xargs can be used to take the output of a command and pass it as the argument of another command.
+
+An example:
+
+find . -name "*.py" | xargs grep "numpy"
+
+This will find all python files in the current diretory and then find all references to numpy in each python file.
 
  
 
