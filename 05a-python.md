@@ -12,7 +12,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Both lists and tuples are lists of values. Tuples are immutable while lists are mutable, meaning that you can redefine the values in lists while you can't redefine the values in tuples. Only tuples can work as keys in dictionaries, not lists. This is because tuples are immutable. If you are using a list as a key in the dictionary and then change it, it can come up with an error. Because you can't change the value of a tuple, this issue won't happen if it's a key in a dictionary.
 
 ---
 
@@ -20,7 +20,7 @@ How are Python lists and tuples similar and different? Which will work as keys i
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Sets are an unordered collection of unique elements, while lists are an ordered collection of elements. I usually use sets when I want the list of unique values in a list. Lists have worse performance than sets because they are ordered.
 
 ---
 
@@ -28,7 +28,12 @@ How are Python lists and sets similar and different? Give examples of using both
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> 
+
+Lambda is a way of executing a function without defining a function by name.  
+objects = [('test1', 'A', 10), ('test2', 'B', 5), ('test3', 'C', 15)]  
+A function example: sorted(objects, key=lambda object: object[2])
+
 
 ---
 
@@ -36,7 +41,18 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> 
+
+List comprehensions are a way to construct lists via mathematical functions, such as printing the multiples or exponents of a number.  
+An example: S = [2** i for i in range(5)]  
+def exponent(y):  
+    return(2**y)  
+map(exponent, range(5))  
+import math
+def exponent2(y):  
+	return math.sqrt(y)
+filter(exponent, range(5))
+
 
 ---
 
