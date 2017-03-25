@@ -28,11 +28,9 @@ How are Python lists and sets similar and different? Give examples of using both
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> 
-
-Lambda is a way of executing a function without defining a function by name.  
-objects = [('test1', 'A', 10), ('test2', 'B', 5), ('test3', 'C', 15)]  
-A function example: sorted(objects, key=lambda object: object[2])
+>> Lambda is a way of executing a function without defining a function by name.  
+>> objects = [('test1', 'A', 10), ('test2', 'B', 5), ('test3', 'C', 15)]  
+>> A function example: sorted(objects, key=lambda object: object[2])
 
 
 ---
@@ -41,17 +39,26 @@ A function example: sorted(objects, key=lambda object: object[2])
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> 
-
-List comprehensions are a way to construct lists via mathematical functions, such as printing the multiples or exponents of a number.  
-An example: S = [2** i for i in range(5)]  
-def exponent(y):  
-    return(2**y)  
-map(exponent, range(5))  
-import math
-def exponent2(y):  
-	return math.sqrt(y)
-filter(exponent, range(5))
+>> List comprehensions are a way to construct lists via mathematical functions, such as printing the multiples or exponents of a number.  
+>> An example:   
+>>S = [2** i for i in range(5)]  
+>>def exponent(y):  
+>>    return(2**y)  
+>>Map Function:  
+>>list(map(exponent, range(5)))  
+>>Filter Function:
+>>def exponent2(y):  
+>>	l = []
+>>	i = 0
+>>	while i < 5:
+		x = 2** i
+		l.append(x)
+		i = i + 1
+	if y in l:
+		return True
+	else:
+		return False
+>>list(filter(exponent2, range(5)))
 
 
 ---
@@ -67,7 +74,7 @@ date_start = '01-02-2013'
 date_stop = '07-28-2015'
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
+>> 937
 
 b.  
 ```
@@ -75,7 +82,7 @@ date_start = '12312013'
 date_stop = '05282015'  
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
+>> 513
 
 c.  
 ```
@@ -83,7 +90,7 @@ date_start = '15-Jan-1994'
 date_stop = '14-Jul-2015'  
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE  (answer will be in number of days)
+>> 7850
 
 Place code in this file: [q5_datetime.py](python/q5_datetime.py)
 
