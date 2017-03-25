@@ -22,10 +22,6 @@ def donuts(count):
     'Number of donuts: many'
     """
     #raise NotImplementedError
-donuts(4)
-donuts(9)
-donuts(10)
-donuts(99)
 
 
 def both_ends(s):
