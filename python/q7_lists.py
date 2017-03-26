@@ -71,6 +71,11 @@ def sort_last(tuples):
 
 
 def remove_adjacent(nums):
+    a = nums[:1]
+    for things in nums[1:]:
+        if things != a[-1]:
+            a.append(things)
+    print(a)
     """
     Given a list of numbers, return a list where all adjacent equal
     elements have been reduced to a single element, so [1, 2, 2, 3]
@@ -86,10 +91,28 @@ def remove_adjacent(nums):
     >>> remove_adjacent([])
     []
     """
-    raise NotImplementedError
+    #raise NotImplementedError
 
 
 def linear_merge(list1, list2):
+    l = []
+    i = j = 0
+    total = len(list1) + len(list2)
+    while len(l) != total:
+        if len(list1) == i:
+            l += list2[j:]
+            break
+        elif len(list2) == j:
+            l += list1[i:]
+        elif list1[i] < list2[j]:
+            l.append(list1[i])
+            i += 1
+        else:
+            l.append(list2[j])
+            j += 1
+    print(l)
+
+
     """
     Given two lists sorted in increasing order, create and return a
     merged list of all the elements in sorted order. You may modify
@@ -103,8 +126,4 @@ def linear_merge(list1, list2):
     >>> linear_merge(['aa', 'aa'], ['aa', 'bb', 'bb'])
     ['aa', 'aa', 'aa', 'bb', 'bb']
     """
-    raise NotImplementedError
-
-x = input()
-x = eval(x)
-sort_last(x)
+    #raise NotImplementedError
