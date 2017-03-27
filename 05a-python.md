@@ -48,17 +48,17 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 >>list(map(exponent, range(5)))  
 >>Filter Function:
 >>def exponent2(y):  
->>	l = []
->>	i = 0
->>	while i < 5:
-		x = 2** i
-		l.append(x)
-		i = i + 1
-	if y in l:
-		return True
-	else:
-		return False
->>list(filter(exponent2, range(5)))
+>>	l = []  
+>>	i = 0  
+>>	while i < 5:  
+>>		x = 2** i  
+>>		l.append(x)  
+>>		i = i + 1  
+>>	if y in l:  
+>>		return True  
+>>	else:  
+>>		return False  
+>>list(filter(exponent2, range(5)))  
 
 
 ---

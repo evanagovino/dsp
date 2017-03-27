@@ -45,15 +45,14 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > 
 
-`ls` - list directory  
-`ls -a` - list all files  
-`ls -l` - list files with long format  
-`ls -lh` - list files with sizes  
-`ls -lah` - list all files (including hidden files?) with sizes in long format  
-`ls -t` - list files by modification times  
-`ls -Glp` - list files in long format without file sizes  
+> > `ls` - list directory  
+> > `ls -a` - list all files  
+> > `ls -l` - list files with long format  
+> > `ls -lh` - list files with sizes  
+> > `ls -lah` - list all files (including hidden files?) with sizes in long format  
+> > `ls -t` - list files by modification times  
+> > `ls -Glp` - list files in long format without file sizes  
 
 
 ---
@@ -62,13 +61,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > 
-
-'ls -R' - list all sub-directories  
-'ls -1' - lists all entries as a line  
-'ls -x' - lists all files as rows  
-'ls -d' - lists all directories only  
-'ls -m' - list all files as comma separated values  
+> > 'ls -R' - list all sub-directories  
+> > 'ls -1' - lists all entries as a line  
+> > 'ls -x' - lists all files as rows  
+> > 'ls -d' - lists all directories only  
+> > 'ls -m' - list all files as comma separated values  
 
 ---
 
@@ -76,15 +73,10 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > 
-
-Xargs can be used to take the output of a command and pass it as the argument of another command.
-
-An example:
-
-find . -name "*.py" | xargs grep "numpy"
-
-This will find all python files in the current diretory and then find all references to numpy in each python file.
+> > Xargs can be used to take the output of a command and pass it as the argument of another command.  
+> > An example:  
+> > find . -name "*.py" | xargs grep "numpy"  
+> > This will find all python files in the current diretory and then find all references to numpy in each python file.
 
  
 
