@@ -41,12 +41,15 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 
 >> List comprehensions are a way to construct lists via mathematical functions, such as printing the multiples or exponents of a number.  
 >> An example:   
+>>'''python  
 >>S = [2** i for i in range(5)]  
 >>def exponent(y):  
 >>    return(2**y)  
->>Map Function:  
+>>'''  
+>>**Map Function:**  
 >>list(map(exponent, range(5)))  
->>Filter Function:
+>>**Filter Function:**  
+>>'''python  
 >>def exponent2(y):  
 >>	l = []  
 >>	i = 0  
@@ -59,6 +62,7 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 >>	else:  
 >>		return False  
 >>list(filter(exponent2, range(5)))  
+>>'''
 
 
 ---
