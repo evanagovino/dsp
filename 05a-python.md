@@ -39,7 +39,8 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> List comprehensions are a way to construct lists via mathematical functions, such as printing the multiples or exponents of a number.    
+>> List comprehensions are a way to construct lists via mathematical functions, such as printing the multiples or exponents of a number.  
+>>  
 >> An example:   
 >>```python  
 >>S = [2** i for i in range(5)]  
