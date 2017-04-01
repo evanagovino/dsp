@@ -26,8 +26,14 @@
 >>    d = diff / np.sqrt(pooled_var)  
 >>    return d  
 >>print("First baby - mean weight:", firsts.totalwgt_lb.mean())  
+>>#First baby - mean weight: 7.201094430437772
 >>print("Other baby - mean weight:", others.totalwgt_lb.mean())  
+>>#Other baby - mean weight: 7.325855614973262  
 >>print("Cohen Difference - mean weight:", CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb))  
+>>#Cohen Difference - mean weight: -0.0886729270726  
 >>print("First baby - mean pregnancy length:", firsts.prglngth.mean())  
+>>#First baby - mean pregnancy length: 38.60095173351461  
 >>print("Other baby - mean pregnancy length:", others.prglngth.mean())  
+>>#Other baby - mean pregnancy length: 38.52291446673706  
 >>print("Cohen Difference - mean pregnancy length:", CohenEffectSize(firsts.prglngth, others.prglngth))  
+>>#Cohen Difference - mean pregnancy length: 0.0288790446544  

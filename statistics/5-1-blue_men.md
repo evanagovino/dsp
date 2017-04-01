@@ -8,3 +8,4 @@
 >>low = dist.cdf(177.8)    # 5'10"   
 >>high = dist.cdf(185.4)   # 6'1"  
 >>print('Percentage of people in between 5-10 and 6-1:', high-low)  
+>>#Percentage of people in between 5-10 and 6-1: 0.342094682946  

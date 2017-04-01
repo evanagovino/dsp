@@ -11,4 +11,4 @@
 >>cdf = thinkstats2.Cdf(t)  
 >>thinkplot.Cdf(cdf)  
 >>thinkplot.Config(xlabel='Random variate', ylabel='CDF')  
->>print("Yes, the distribution is uniform.")  
+>>##Yes, the distribution is uniform  

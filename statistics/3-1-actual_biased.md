@@ -19,4 +19,6 @@
 >>thinkplot.Config(xlabel='Number of children', ylabel='PMF')  
 >>print(thinkplot)  
 >>print("Actual distribution:", pmf.Mean())  
+>>#Actual distribution: 1.02420515504  
 >>print("Biased distribution:", biased.Mean())  
+>>#Biased distribution: 2.40367910066  
